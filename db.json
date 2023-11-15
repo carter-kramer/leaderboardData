@@ -1,14 +1,28 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": 1,
+    "name": "Greg P",
+    "g0Number": "G027410",
+    "activeWeeks": 22,
+    "weekly": {
+      "pol": 5,
+      "apb": 5086
+    },
+    "monthly": {
+      "pol": 30,
+      "apb": 30000,
+      "pb": {
+        "amount": 22000,
+        "month":  "10/2023"
+      }
+    },
+    "yearly": {
+      "pol": 60,
+      "apb": 60000,
+      "goal": 100000,
+      "runRate": 140000,
+      "goalRemaining": 40000
+    },
+    "bonusPaid": 22000
   }
-}
+]
